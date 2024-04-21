@@ -1,0 +1,4 @@
+-r requirements.txt
+-r requirements_layer.txt
+
+uvicorn==0.29.0
