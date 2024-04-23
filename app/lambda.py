@@ -1,5 +1,5 @@
-def handler(event, context):
-    return {
-        'statusCode': 200,
-        'body': 'Hello, from Pulumi!'
-    }
+from mangum import Mangum
+from app.server import app
+
+
+handler = Mangum(app)

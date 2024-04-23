@@ -1,4 +1,6 @@
 *.pyc
 venv/
 dist/
+layer/
+out/
 __pycache__/
